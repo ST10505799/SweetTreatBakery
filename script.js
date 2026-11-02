@@ -8,7 +8,7 @@ document.getElementById("moreInfo");
 function () {
          if (moreInfo.hidden) {
              moreInfo.hidden = false;
-             bitton.textContent = "Show
+             button.textContent = "Show
 Less";
          } else {
              moreInfo.hidden = true;
