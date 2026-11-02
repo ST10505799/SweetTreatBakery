@@ -8,12 +8,10 @@ document.getElementById("moreInfo");
 function () {
          if (moreInfo.hidden) {
              moreInfo.hidden = false;
-             button.textContent = "Show
-Less";
+             button.textContent = "Show Less";
          } else {
              moreInfo.hidden = true;
-             button.textContent = "Learn
-More";
+             button.textContent = "Show More";
          }
     });
 });
