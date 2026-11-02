@@ -14,5 +14,12 @@ function () {
              button.textContent = "Show More";
          }
     });
+  const inquiryForm = document.getElementById("inquiryForm");
+  if (inquiryform) {
+  inquiryForm.addEventListener("submit",function(event) {
+  event.preventDefault();
+  const product = document.getElementById("product").value;
+  alert("Thank you for your enquiry about" + product+". We will contact you with pricing and availability details.");
+  }
 });
   
