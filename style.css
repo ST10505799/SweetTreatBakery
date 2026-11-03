@@ -127,3 +127,17 @@ li:active {
 
     }
 }
+
+nav a {
+    background-color: pink;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+    
