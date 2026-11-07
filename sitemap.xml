@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlet
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+
+ <loc>https://st10505799.github.io/SweetTreatBakery/</loc>
+  </url>
+
+  <url>
+
+    <loc>https://st10505799.github.io/SweetTreatBakery/inquiry.html</loc>
+
+    <url>
+
+      <loc>https://st10505799.github.io/SweetTreatBakery/contact.html</loc>
+    </url>
+
+  </urlset>
+  
