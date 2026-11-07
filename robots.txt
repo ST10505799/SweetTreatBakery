@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap:https://st10505799.github.io/SweetTreatBakery/sitemap.xml
