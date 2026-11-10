@@ -25,3 +25,18 @@ function () {
   }
 });
   
+const productSearch = document.getElementById("productSearch");
+const productItems = document.querySelectorAll("#productListli");
+
+if (productSearch) {
+  productSearch.addEventListener("input",function() {
+         const searchTerm = productSearch.Value.tolowerCase();
+
+productItems.forEach(function(item) {
+      const productName = item.textContent.toLowerCase();
+
+      item.style.display = productName.includes(searchTerm) ? "" :
+        "none";
+                });
+        });
+}
