@@ -65,7 +65,7 @@ if (contactForm) {
       "Message Type: " + messageType + "\n" +
       "Message: " + message;
 
-    const mailtolink = "mailto:" + recipient +
+    const mailtoLink = "mailto:" + recipient +
       "?subject=" + encodeURIComponent(subject) +
       "&body=" +encodeURIComponent(emailBody);
 
