@@ -40,3 +40,35 @@ productItems.forEach(function(item) {
                 });
         });
 }
+
+const contactForm = document.getElementById("contactForm");
+
+if (contactForm) {
+
+  contactForm.addEventListener("submit",function(event) {
+      event.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const phone = document.getElementById("phone").value;
+    const email = document.getElementById("email").value;
+    const subject = document.getElementById("subject").value;
+    const messageType = document.getElementById("messageType").value;
+    const message = document.getElementById("message").value;
+
+    const recipient = "sweettreatbakery@gmail.com";
+
+    const emailBody =
+      "Full Name: " + name + "\n" +
+      "Phone Number: " + phone + "\n" +
+      "Email: " + email + "\n" +
+      "Subject: " + subject + "\n" +
+      "Message Type: " + messageType + "\n" +
+      "Message: " + message;
+
+    cost mailtolink = "mailto:" + recipient +
+      "?subject=" + encodeURIComponent(subject) +
+      "&body=" +encodeURIComponent(emailBody);
+
+    window.location.href = mailtoLink;
+  });
+}
