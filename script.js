@@ -65,7 +65,7 @@ if (contactForm) {
       "Message Type: " + messageType + "\n" +
       "Message: " + message;
 
-    cost mailtolink = "mailto:" + recipient +
+    const mailtolink = "mailto:" + recipient +
       "?subject=" + encodeURIComponent(subject) +
       "&body=" +encodeURIComponent(emailBody);
 
