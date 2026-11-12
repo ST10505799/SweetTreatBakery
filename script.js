@@ -30,7 +30,7 @@ const productItems = document.querySelectorAll("#productListli");
 
 if (productSearch) {
   productSearch.addEventListener("input",function() {
-         const searchTerm = productSearch.Value.tolowerCase();
+         const searchTerm = productSearch.Value.toLowerCase();
 
 productItems.forEach(function(item) {
       const productName = item.textContent.toLowerCase();
