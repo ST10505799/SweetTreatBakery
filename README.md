@@ -32,11 +32,12 @@ Responsive design was implemented using media queries for mobile, tablets, and d
 - ** 10 November 2026 - Product search :* Added a product search input and JavaScript filtering code to the homepage. Further testing and corrections are still required because the search is not filtering the products correctly.
 - ** 10 November 2026 - Form improvements:* Added HTML form validation and a JavaScript thank you message to the product inquiry form.
 - **10 November 2026 - Repository updates:* Update website files and committed changes to the GitHub repository using descriptive commit messages.
-- **13 November 2026 - Contact form improvements:* Added phone number and message type fields, connected the contact fprm to JavaScript, and added an email link to prepare customer enquiries.
+- **13 November 2026 - Contact form improvements:* Added phone number and message type fields, connected the contact form to JavaScript, and added an email link to prepare customer enquiries.
 ### Part 1 Feedback
 - Continued improving the website based on feedback received for part 1.
 - Goals and objectives and current analysis were reviewed and used to guide further improvements.
 
   References
   - Rosebank College WEDE5020 study guide.
-  - MDN web Docs - CSS and responsive design.
+  - MDN web Docs. Responsive Design: https://developer.mozilla.org/en-US/docs/Learn_web_developement/Core/CSS_layout/Responsive_Design.
+  - MDN Web Docs. CSS: https://developer.mozilla.org/en-US/docs/Web/CSS
